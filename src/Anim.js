@@ -60,7 +60,6 @@ function MeshAnim({
         return new Uint16Array(indices)
     }, [width, height])
 
-    // animation
     let posRef = useRef(), colorRef = useRef()
     useFrame(() => {
         t = update(t)

@@ -1,6 +1,6 @@
 import './App.scss';
 import { Canvas } from '@react-three/fiber';
-import { EffectComposer, DepthOfField, Bloom, Noise, Vignette, Pixelation } from '@react-three/postprocessing'
+import { EffectComposer, DepthOfField, Bloom, Noise, Pixelation } from '@react-three/postprocessing'
 import { Anim } from './Anim';
 import * as THREE from "three";
 import Roboto from "./DotGothic16_Regular.json"
