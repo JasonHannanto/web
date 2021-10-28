@@ -80,7 +80,7 @@ function AnimationCanvas() {
   if (check()) {
     return (
       <Canvas
-        camera={{ position: [0, 1, 11], fov: 85 }}
+        camera={{ position: [0, 1, 11], fov: 97 }}
       >
         <Text3dMobile />
         <Text4dMobile />
